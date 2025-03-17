@@ -71,7 +71,7 @@ const Gallery = ({ token, handleSignOut }) => {
     };
 
     return (
-        <div className="flex flex-col p-30 items-center w-screen h-screen bg-gradient-to-b from-transparent to-[#9c9c9c] font-julius text-[#9c9c9c]/90">
+        <div className="flex flex-col p-30 items-center w-full min-h-screen bg-gradient-to-b from-transparent to-[#9c9c9c] font-julius text-[#9c9c9c]/90">
             {/* Search Bar & Filters */}
             <div className="flex justify-center items-center w-full max-w-6xl gap-4 mb-10 flex-wrap">
                 {/* Search Input */}
