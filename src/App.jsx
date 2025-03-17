@@ -24,7 +24,7 @@ const App = () => {
     };
 
     return (
-        <Router>
+        <Router basename="/JessGDrive">
             <div className="flex items-center justify-center bg-white shadow-lg rounded-xl w-full min-h-screen">
                 <Routes>
                     <Route path="/" element={token ? <Navigate to="/gallery" /> : <Intro setToken={setToken} />} />
