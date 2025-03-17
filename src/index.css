@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import "tailwindcss";
+
+html,body,#root{
+    height:100%;
+    margin:0;
+    padding:0;
+    background-color: #D9D9D9;
+}
+.font-julius {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+
+/* index.css */
+.gray-grad-bg {
+    @apply bg-gradient-to-b from-transparent to-[#9c9c9c]/70
+}
+
+
+/*.bg-gradient {*/
+/*    @apply bg-gradient-to-r from-purple-500 to-pink-500;*/
+/*}*/
